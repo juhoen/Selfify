@@ -4,7 +4,7 @@ Helper function for Backbone.js. Selfify passes class context to each class meth
 ## Instructions
 Using Selfify is simple. Just add one line of code inside Backbone.js view's initialize-method:
 
-```
+```js
 initialize: function() {
   selfify(this);
 }
@@ -12,7 +12,7 @@ initialize: function() {
 
 ## Example
 
-```
+```js
 
 var ExampleView = Backbone.View.extend({
     
